@@ -1,5 +1,9 @@
 # Ringkasan Modul: Innovating with Google Cloud Artificial Intelligence
 
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+
 Repository ini berisi catatan komprehensif dari jalur pembelajaran **Cloud Digital Leader** mengenai fondasi Kecerdasan Buatan (AI), Machine Learning (ML), dan persiapan data operasional bisnis.
 
 ## Daftar Isi
