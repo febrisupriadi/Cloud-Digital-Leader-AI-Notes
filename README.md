@@ -62,22 +62,19 @@ Data set harus dievaluasi melalui enam filter berikut:
 
 
 ## 5. Studi Kasus: Implementasi Jaringan
-Bagian ini mendokumentasikan aplikasi nyata dari konsep AI dan otomatisasi dalam mengelola infrastruktur jaringan *backbone* dan mitigasi gangguan.
+*Catatan: Kerangka kerja ini dirancang untuk mengintegrasikan prinsip-prinsip AI ke dalam alur kerja operasional jaringan.*
 
 ### 5.1. Otomatisasi Monitoring (The Foundation)
-Beralih dari pemantauan manual menuju sistem yang berbasis data:
-*   **Integrasi Data:** Menghubungkan *real-time* data SNMP dan *log traffic* ke dalam sistem otomatisasi berbasis Python.
-*   **Analytics Dashboard:** Menggunakan visualisasi untuk mendeteksi pola anomali harian secara otomatis, mengurangi waktu deteksi (*Mean Time to Detect*) dibandingkan pengecekan manual.
+*   **Integrasi Data:** Membangun *pipeline* otomatisasi menggunakan Python untuk *polling* SNMP secara *real-time*.
+*   **Analytics Dashboard:** Mengembangkan visualisasi data untuk mendeteksi pola anomali harian secara otomatis, memangkas *Mean Time to Detect* (MTTD) dibandingkan metode manual.
 
 ### 5.2. Mitigasi Gangguan Backbone (The Execution)
-Implementasi alur kerja proaktif saat menangani proyek jaringan seperti DWDM:
-*   **Cross-Functional Coordination:** Menyatukan perspektif antara tim *Field Operations* dan *Network Planning* melalui satu sumber data kebenaran (*single source of truth*).
-*   **Otonomi Proyek:** Memanfaatkan *agentic mindset* untuk mengawal stabilitas jaringan, terutama saat event krusial seperti kunjungan kenegaraan, di mana *uptime* adalah prioritas utama.
+*   **Cross-Functional Coordination:** Menginisiasi *single source of truth* untuk menyelaraskan perspektif tim *Field Operations* dan *Network Planning*.
+*   **Otonomi Proyek:** Memanfaatkan *agentic mindset* untuk mengawal stabilitas jaringan, khususnya pada infrastruktur DWDM se-Kalimantan.
 
 ### 5.3. Komunikasi Otonom via Bot Telegram
-Implementasi *Generative AI* untuk mempercepat alur komunikasi teknis:
-*   **Proactive Reporting:** Menggunakan *bot* Telegram yang terintegrasi dengan sistem *monitoring* untuk mengirimkan notifikasi instan jika ditemukan anomali atau *threshold* yang terlampaui.
-*   **Efficiency in Appreciation:** Menggunakan AI untuk menyusun draf apresiasi profesional bagi tim teknis (seperti Tim Squat Bravo) atas keberhasilan mitigasi, memastikan apresiasi diberikan secara cepat dan tepat.
+*   **Proactive Reporting:** Mengintegrasikan notifikasi instan berbasis *threshold* langsung ke tim teknis.
+*   **Efficiency in Appreciation:** Menggunakan AI untuk menyusun draf apresiasi profesional bagi tim, seperti Tim Squat Bravo, untuk memastikan apresiasi yang tepat waktu dan berbobot.
 
 ## 6. Lampiran & Referensi
 *   *Catatan ini merupakan rangkuman pembelajaran mandiri dan pengalaman praktis.*
