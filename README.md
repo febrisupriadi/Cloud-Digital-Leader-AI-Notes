@@ -72,9 +72,9 @@ Data set harus dievaluasi melalui enam filter berikut:
 *   **Cross-Functional Coordination:** Menginisiasi *single source of truth* untuk menyelaraskan perspektif tim *Field Operations* dan *Network Planning*.
 *   **Otonomi Proyek:** Memanfaatkan *agentic mindset* untuk mengawal stabilitas jaringan, khususnya pada infrastruktur DWDM se-Kalimantan.
 
-### 5.3. Komunikasi Otonom via Bot Telegram
-*   **Proactive Reporting:** Mengintegrasikan notifikasi instan berbasis *threshold* langsung ke tim teknis.
-*   **Efficiency in Appreciation:** Menggunakan AI untuk menyusun draf apresiasi profesional bagi tim, seperti Tim Squat Bravo, untuk memastikan apresiasi yang tepat waktu dan berbobot.
+### 5.3. Otomatisasi Pelaporan Lintas Unit via Bot Telegram (Deployed Project)
+*   **Cross-Functional Automation:** Membantu unit Catudaya (Power Supply) dengan mengotomatisasi rekapitulasi laporan harian operasional di seluruh area.
+*   **Efisiensi Operasional:** Mengembangkan *bot* Telegram yang memproses dan melaporkan data konsumsi BBM serta jam jalan mesin genset secara otomatis, menggantikan proses pengumpulan data manual dan mempercepat pelaporan ke tingkat manajemen.
 
 ## 6. Lampiran & Referensi
 *   *Catatan ini merupakan rangkuman pembelajaran mandiri dan pengalaman praktis.*
