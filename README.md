@@ -74,7 +74,7 @@ Data set harus dievaluasi melalui enam filter berikut:
 
 ### 5.3. Otomatisasi Pelaporan Lintas Unit via Bot Telegram (Deployed Project)
 *   **Cross-Functional Automation:** Membantu unit Catudaya (Power Supply) dengan mengotomatisasi rekapitulasi laporan harian operasional di seluruh area.
-*   **Efisiensi Operasional:** Mengembangkan *bot* Telegram yang memproses dan melaporkan data konsumsi BBM serta jam jalan mesin genset secara otomatis, menggantikan proses pengumpulan data manual dan mempercepat pelaporan ke tingkat manajemen.
+*   **Efisiensi Operasional:** Mengembangkan [bot Telegram untuk laporan BBM dan genset](./scripts/bot-bbm_genset_v2.5/) yang memproses dan melaporkan data konsumsi secara otomatis, menggantikan pengumpulan data manual dan mempercepat pelaporan ke manajemen.
 
 ## 6. Lampiran & Referensi
 *   *Catatan ini merupakan rangkuman pembelajaran mandiri dan pengalaman praktis.*
