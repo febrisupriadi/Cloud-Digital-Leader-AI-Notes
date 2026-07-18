@@ -30,6 +30,27 @@ Memahami perbedaan mendasar antara berbagai terminologi dalam ekosistem AI.
 
 ---
 
+## 2. Agentic AI
+
+[Agentic AI](https://www.skills.google/paths/9/course_templates/946/documents/631682#89) mewakili evolusi berikutnya dalam teknologi kecerdasan buatan, di mana AI tidak lagi sekadar menjadi alat bantu (*tools*), melainkan berkembang menjadi rekan kerja digital (*digital teammate*) yang mampu mengelola alur kerja secara mandiri.
+
+### Definisi
+Sistem AI tingkat lanjut yang memiliki **otonomi dan agensi**. Sistem ini mampu:
+*   **Menalar & Merencanakan:** Memahami tujuan yang kompleks dan memecahnya menjadi langkah-langkah yang lebih kecil.
+*   **Eksekusi Multi-langkah:** Menggunakan berbagai alat dan sistem secara otonom untuk menyelesaikan alur kerja tanpa intervensi manual yang konstan.
+*   **Adaptasi:** Menyesuaikan tindakan untuk mencapai hasil akhir dengan pengawasan manusia (*human oversight*) yang minimal.
+
+### Analogi Peran
+Jika *Generative AI* berperan seperti penulis yang membuat draf, maka **Agentic AI bertindak sebagai Manajer Proyek**. Ia mengoordinasikan tugas, berinteraksi dengan sistem lain, dan memastikan seluruh alur kerja selesai hingga tujuan tercapai.
+
+### Manfaat Utama
+*   **Peningkatan Produktivitas:** Mengotomatiskan tugas repetitif yang melibatkan berbagai platform (misalnya: meriset data dari berbagai spreadsheet dan dokumen untuk menyusun laporan dalam hitungan menit).
+*   **Akselerasi Inovasi:** Memungkinkan tim untuk beralih dari tugas administratif yang membosankan ke pekerjaan yang lebih strategis.
+*   **Otonomi Operasional:** Integrasi mulus ke dalam operasional sehari-hari untuk mendorong pertumbuhan bisnis yang lebih efisien.
+
+
+---
+
 ## 8. Considerations when Selecting Google Cloud AI/ML Solutions
 Bagian ini membahas kerangka kerja strategis dalam memilih layanan AI/ML di [Google Cloud](https://www.skills.google/paths/9/course_templates/946/documents/631689) agar sesuai dengan kebutuhan bisnis dan kemampuan tim.
 
