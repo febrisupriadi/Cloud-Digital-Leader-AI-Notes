@@ -1,4 +1,4 @@
-# Ringkasan Modul: Innovating with Google Cloud Artificial Intelligence
+# Ringkasan Modul 3: Innovating with Google Cloud Artificial Intelligence
 
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -6,7 +6,17 @@
 
 Repository ini berisi catatan komprehensif dari jalur pembelajaran **Cloud Digital Leader** mengenai fondasi Kecerdasan Buatan (AI), Machine Learning (ML), dan persiapan data operasional bisnis.
 
-## Daftar Isi
+## Daftar Isi - Modul 3
+- 1. Innovating with Google Cloud Artificial Intelligence
+- 2. The landscape of artificial intelligence
+- 3. Agentic AI
+- 4. The business value of AI and ML
+- 5. Laying the foundation for successful ML
+- 6. Google Cloud’s AI and ML solutions
+- 7. Four paths to build ML models
+- 8. Google’s AI Hypercomputer
+- 9. Considerations when selecting Google Cloud AI/ML solutions
+   
 - [1. Pendahuluan & Konteks](#1-pendahuluan--konteks)
 - [2. Landasan Teori AI/ML (Agnostik)](#2-landasan-teori-aiml-agnostik)
 - [3. Ekosistem Google Cloud untuk AI](#3-ekosistem-google-cloud-untuk-ai)
@@ -16,6 +26,45 @@ Repository ini berisi catatan komprehensif dari jalur pembelajaran **Cloud Digit
 
 ---
 
+## 1. 
+## 2. 
+## 3.
+## 4.
+## 5. 
+## 6.
+## 7. 
+## 8. 
+## 9. Considerations when selecting Google Cloud AI/ML solutions
+
+Bagian ini membahas kerangka kerja strategis dalam memilih layanan AI/ML di [Google Cloud](https://www.skills.google/paths/9/course_templates/946/documents/631689) agar sesuai dengan kebutuhan bisnis dan kemampuan tim. Pemilihan solusi yang tepat melibatkan keseimbangan antara empat faktor utama: **kecepatan, diferensiasi, keahlian, dan upaya (effort).**
+
+### 1. Empat Pilar Pertimbangan (Trade-offs)
+Dalam setiap proyek AI/ML, terdapat variabel yang saling bersaing yang perlu dioptimalkan:
+
+*   **Kecepatan:** Seberapa cepat model harus masuk ke fase produksi? 
+    *   *Pre-trained APIs* menawarkan waktu implementasi tercepat.
+    *   *Custom training* dari nol memakan waktu paling lama (bisa mencapai 12-36 bulan).
+*   **Diferensiasi:** Seberapa unik kebutuhan model Anda? 
+    *   Solusi *out-of-the-box* cocok untuk fungsi umum yang cepat dideploy.
+    *   *Custom models* melalui [Gemini Enterprise Agent Platform](https://www.skills.google/paths/9/course_templates/946/documents/631689) memberikan kontrol penuh untuk hasil yang lebih spesifik dan kompetitif.
+*   **Keahlian:** Menilai ketersediaan talenta (data scientist, ML engineer). Strategi mencakup pemanfaatan sumber daya internal (upskilling), atau kolaborasi dengan konsultan luar.
+*   **Upaya (Effort):** Bergantung pada kompleksitas masalah dan ketersediaan data. Semakin besar kontrol yang dibutuhkan, semakin tinggi tingkat upaya dan investasi yang diperlukan.
+
+### 2. Kategori Solusi
+Google Cloud mengelompokkan solusinya ke dalam tiga kategori utama berdasarkan level kontrol yang diinginkan:
+
+| Kategori | Layanan | Fokus |
+| :--- | :--- | :--- |
+| **SaaS** | [Document AI](https://www.skills.google/paths/9/course_templates/946/documents/631689), Agent Search | Dikelola sepenuhnya, hasil instan, tidak butuh keahlian Data Science. |
+| **PaaS** | [Gemini Enterprise Agent Platform](https://www.skills.google/paths/9/course_templates/946/documents/631689) | Jalan tengah: akses model fondasi dengan kemampuan *tuning* data internal. |
+| **IaaS** | Specialized AI Infrastructure | Kontrol fundamental penuh (Cloud TPU, NVIDIA GPU) untuk membangun model custom dari nol. |
+
+---
+*Catatan: Ringkasan ini merupakan bagian dari modul "Innovating with Google Cloud Artificial Intelligence" dalam jalur sertifikasi Cloud Digital Leader.*
+
+
+
+---edit!!!
 ## 1. The Landscape of Artificial Intelligence
 Memahami perbedaan mendasar antara berbagai terminologi dalam ekosistem AI.
 
