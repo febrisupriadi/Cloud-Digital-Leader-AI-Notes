@@ -50,3 +50,27 @@ Memilih arsitektur komputasi seperti mendesain ruangan di rumah Anda; setiap beb
         - Tidak perlu investasi *upfront* (modal fisik).
         - Dapat dikonfigurasi seperti server fisik (OS, RAM, vCPU).
         - Pengelolaan dapat dilakukan via Console, CLI, atau API (Terraform/Compute Engine API).
+
+### Google Cloud Serverless Computing Products
+*   **Cloud Run:**
+    *   *Fungsi:* Lingkungan *fully managed* untuk menjalankan aplikasi dalam **container**.
+    *   *Kelebihan:* Mendukung bahasa pemrograman apa pun (asalkan bisa dikontainerisasi), *scaling* otomatis hingga ke nol saat tidak ada trafik. Pilihan utama untuk aplikasi web modern.
+*   **Cloud Run Functions:**
+    *   *Fungsi:* Platform untuk menjalankan *single-purpose functions* berbasis *event*.
+    *   *Kelebihan:* Cocok untuk otomatisasi ringan (misal: kirim notifikasi saat ada file baru diunggah). Menggunakan model *event-driven*.
+*   **App Engine:**
+    *   *Fungsi:* *Platform as a Service* (PaaS) untuk membangun aplikasi web yang sangat *scalable*.
+    *   *Kelebihan:* Manajemen *load balancing* dan *traffic splitting* otomatis. Cocok untuk aplikasi yang membutuhkan alur kerja terstruktur (Python, Java, Go).
+*   **Poin krusial:** *Cloud Run* saat ini adalah pilihan yang lebih fleksibel karena berbasis container, sedangkan *App Engine* adalah "pemain lama" yang tetap sangat kuat untuk kebutuhan aplikasi web tertentu.
+
+   
+### Benefits of Serverless Computing
+Beralih ke model *serverless* memberikan dampak strategis bagi organisasi:
+* **Reduced Operational Costs:** Tidak perlu mengelola server atau infrastruktur fisik.
+* **Scalability:** Penyesuaian kapasitas otomatis sesuai beban kerja.
+* **Faster Time-to-Market:** Tim bisa fokus sepenuhnya pada penulisan kode dan inovasi.
+* **Reduced Development Costs:** Menghilangkan beban *maintenance* infrastruktur.
+* **Improved Resilience:** Mengandalkan *built-in availability* dari penyedia cloud.
+* **Pay-per-use Pricing:** Biaya hanya dibebankan saat kode benar-benar dieksekusi (efisien).
+
+
