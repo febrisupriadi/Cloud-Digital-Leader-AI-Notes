@@ -31,15 +31,22 @@ Modernisasi adalah langkah strategis untuk mengubah cara organisasi mengelola da
     * Retire, Retain, Rehost, Replatform, Refactor, dan Reimagine.
 
 ## 2. Modernizing Infrastructure in the Cloud
-* **Modernizing infrastructure in the cloud:** Strategi transformasi infrastruktur.
-* **Virtualization:** Dasar dari *cloud computing*.
-* **Modern cloud computing models:** Transisi ke model *cloud-native*.
-* **Hybrid and multicloud management:** Pengelolaan lingkungan yang beragam.
+### Cloud Corner: Analogi Arsitektur Komputasi
+Memilih arsitektur komputasi seperti mendesain ruangan di rumah Anda; setiap beban kerja (*workload*) membutuhkan "ruangan" yang tepat:
 
-## 3. Modernizing Apps in the Cloud
-* **Modernizing apps in the cloud:** Fokus pada efisiensi aplikasi.
-* **Modern architectures and migration paths:** Transisi ke arsitektur fleksibel (seperti *microservices*).
-* **Application programming interfaces (APIs):** Integrasi antar layanan untuk inovasi.
+*   **Virtual Machines (VM):** Seperti **"kamar suite" pribadi**. Lengkap, mandiri, dan memiliki sumber daya dedikasi penuh. Cocok untuk aplikasi tradisional yang membutuhkan kontrol sistem operasi penuh.
+*   **Containers:** Seperti **"meja kerja di kantor bersama"**. Hemat ruang dan ringan karena berbagi *kernel* sistem operasi yang sama, namun setiap aplikasi tetap terisolasi. Sangat efisien untuk arsitektur *microservices*.
+*   **Serverless:** Seperti **"alat dapur"**. Anda tidak perlu tahu bagaimana sistem listrik di dinding bekerja, cukup tekan tombol dan gunakan. Sumber daya hanya aktif saat kode dijalankan, sehingga sangat efisien untuk tugas spesifik tanpa perlu mengelola infrastruktur.
 
-## 4. Course Summary
-Ringkasan akhir dari seluruh materi modernisasi infrastruktur dan aplikasi untuk sertifikasi Cloud Digital Leader.
+### Konsep Infrastruktur Lainnya
+- **Virtualization:** Dasar dari *cloud computing* yang memungkinkan efisiensi hardware.
+- **Modern cloud computing models:** Transisi dari infrastruktur fisik ke model *cloud-native*.
+- **Hybrid and multicloud management:** Pengelolaan data dan beban kerja secara konsisten di lingkungan yang terdistribusi.
+
+- **Virtualization:**
+    - *Definisi:* Bentuk optimasi sumber daya yang memungkinkan beberapa sistem (Virtual Machines/VMs) berjalan pada hardware yang sama. Virtualisasi adalah "kunci" yang memecahkan masalah keterikatan aplikasi dengan hardware fisik yang kaku di masa lalu.
+    - *Fungsi:* Menggunakan kumpulan sumber daya (CPU, RAM, Storage, Networking) secara bersamaan namun tetap terisolasi.
+    - *Compute Engine:* Layanan IaaS (Infrastructure as a Service) Google Cloud untuk membuat dan mengelola VM. Compute Engine adalah implementasi praktisnya di Google Cloud yang memberikan fleksibilitas tanpa harus memikirkan data center fisik.
+        - Tidak perlu investasi *upfront* (modal fisik).
+        - Dapat dikonfigurasi seperti server fisik (OS, RAM, vCPU).
+        - Pengelolaan dapat dilakukan via Console, CLI, atau API (Terraform/Compute Engine API).
