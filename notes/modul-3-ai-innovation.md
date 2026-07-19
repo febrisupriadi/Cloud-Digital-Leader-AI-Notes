@@ -15,6 +15,8 @@ Repository ini berisi catatan komprehensif dari jalur pembelajaran **Cloud Digit
 - [6. Four Paths to Build ML Models](#6-four-paths-to-build-ml-models)
 - [7. Google’s AI Hypercomputer](#7-googles-ai-hypercomputer)
 - [8. Considerations when Selecting Google Cloud AI/ML Solutions](#8-considerations-when-selecting-google-cloud-aiml-solutions)
+- [Course Summary: Innovating with Google Cloud Artificial Intelligence](#course-summary-innovating-with-google-cloud-artificial-intelligence)
+- [Glosarium](#glosarium)
 
 ---
 
@@ -233,5 +235,12 @@ Berikut adalah daftar istilah dan singkatan yang digunakan dalam modul ini:
 | **Fine-tuning** | Proses melatih kembali model yang sudah ada dengan data spesifik untuk hasil lebih akurat. |
 | **Generative AI** | Tipe AI yang mampu membuat konten baru seperti teks, gambar, atau kode. |
 
+---
+
+---
+## Referensi
+- [CDL Study Guide - C3 - Innovating with Google Cloud Artificial Intelligence](https://services.google.com/fh/files/misc/cdl_study_guide_c3_innovating_with_google_cloud_artificial_intelligence_english.pdf)
+
+  
 ---
 *Catatan: Ringkasan ini merupakan bagian dari modul "Innovating with Google Cloud Artificial Intelligence" dalam jalur sertifikasi Cloud Digital Leader.*
