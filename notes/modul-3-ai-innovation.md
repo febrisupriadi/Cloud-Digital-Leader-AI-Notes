@@ -193,6 +193,26 @@ Dalam setiap proyek AI/ML, terdapat variabel yang perlu dioptimalkan:
 
 ---
 
+## Course Summary: Innovating with Google Cloud Artificial Intelligence
+
+Sebagai penutup dari modul ketiga dalam jalur sertifikasi **Cloud Digital Leader**, berikut adalah inti sari dari apa yang telah dipelajari:
+
+### 1. AI and ML Fundamentals
+*   **Perbedaan Konsep:** Memahami batasan antara *Artificial Intelligence* (AI) dan *Machine Learning* (ML).
+*   **Analisis vs. Prediksi:** Membedakan peran ML dengan *Data Analytics* dan *Business Intelligence*.
+*   **Problem Solving:** Mengidentifikasi jenis masalah bisnis yang paling efektif diselesaikan dengan solusi AI.
+*   **Kualitas Data:** Memahami bahwa keberhasilan ML sangat bergantung pada data berkualitas tinggi.
+*   **Etika AI:** Menerapkan prinsip *Responsible* dan *Explainable AI* dalam pengembangan model.
+
+### 2. Google Cloud’s AI and ML Solutions
+*   **Opsi Pengembangan:** Memahami perbedaan jalur pengembangan: *BigQuery ML*, *Pre-trained APIs*, solusi *no-code/low-code*, dan *custom models*.
+*   **Infrastruktur:** Pengenalan terhadap **Google’s AI Hypercomputer** sebagai tulang punggung komputasi AI.
+*   **Pengambilan Keputusan:** Memahami faktor kunci dalam memilih solusi AI/ML yang tepat untuk kebutuhan organisasi.
+
+---
+*Catatan: Ringkasan ini merupakan bagian akhir dari kursus [Innovating with Google Cloud Artificial Intelligence](https://www.skills.google/paths/9/course_templates/946/documents/631691) dalam jalur sertifikasi Cloud Digital Leader.*
+
+---
 ## Glosarium
 
 Berikut adalah daftar istilah dan singkatan yang digunakan dalam modul ini:
