@@ -1,4 +1,4 @@
-# Google Cloud Digital Leader: AI & Cloud Notes
+# Google Cloud Digital Leader: AI & Cloud - 2026 Notes
 
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -50,3 +50,4 @@ Berikut adalah daftar istilah dan singkatan yang digunakan dalam bab ini:
 
 ---
 *Catatan ini diperbarui secara berkala seiring dengan progres pembelajaran.*
+*19 Juli 2026.*
