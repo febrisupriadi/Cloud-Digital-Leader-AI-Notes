@@ -30,7 +30,7 @@ Selain catatan teoritis, repositori ini juga memuat *source code* dari solusi ya
 ---
 ## Glosarium
 
-Berikut adalah daftar istilah dan singkatan yang digunakan dalam modul ini:
+Berikut adalah daftar istilah dan singkatan yang digunakan dalam bab ini:
 
 | Istilah/Singkatan | Keterangan |
 | :--- | :--- |
