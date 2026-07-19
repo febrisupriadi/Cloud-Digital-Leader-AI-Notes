@@ -28,4 +28,25 @@ Selain catatan teoritis, repositori ini juga memuat *source code* dari solusi ya
 *   **[Bot Telegram Laporan Catudaya (BBM & Genset)](./scripts/bot-bbm_genset_v2.5/)**: Otomatisasi rekapitulasi laporan harian lintas unit (Power Supply) menggantikan pengumpulan data manual.
 
 ---
+## Glosarium
+
+Berikut adalah daftar istilah dan singkatan yang digunakan dalam modul ini:
+
+| Istilah/Singkatan | Keterangan |
+| :--- | :--- |
+| **AI** | *Artificial Intelligence* (Kecerdasan Buatan). Sistem yang meniru kecerdasan manusia. |
+| **ML** | *Machine Learning*. Subset AI di mana sistem belajar dari data untuk prediksi/keputusan. |
+| **TPU** | *Tensor Processing Unit*. Akselerator kustom Google yang dioptimalkan untuk *deep learning*. |
+| **GPU** | *Graphics Processing Unit*. Prosesor paralel yang serbaguna untuk berbagai beban kerja ML. |
+| **SQL** | *Structured Query Language*. Bahasa standar untuk mengelola dan memanipulasi data di basis data. |
+| **BI** | *Business Intelligence*. Proses analisis data historis untuk mendukung pengambilan keputusan bisnis. |
+| **API** | *Application Programming Interface*. Perangkat yang memungkinkan aplikasi berbeda untuk saling berkomunikasi. |
+| **SaaS** | *Software as a Service*. Model penyediaan perangkat lunak melalui internet (dikelola vendor). |
+| **PaaS** | *Platform as a Service*. Layanan *cloud* yang menyediakan *platform* untuk mengembangkan aplikasi. |
+| **IaaS** | *Infrastructure as a Service*. Layanan *cloud* yang menyediakan infrastruktur komputasi dasar. |
+| **Data Drift** | Perubahan statistik data *input* yang menyebabkan performa model ML menurun seiring waktu. |
+| **Fine-tuning** | Proses melatih kembali model yang sudah ada dengan data spesifik untuk hasil lebih akurat. |
+| **Generative AI** | Tipe AI yang mampu membuat konten baru seperti teks, gambar, atau kode. |
+
+---
 *Catatan ini diperbarui secara berkala seiring dengan progres pembelajaran.*
