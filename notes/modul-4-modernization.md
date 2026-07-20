@@ -195,4 +195,10 @@ Berikut adalah rekapitulasi materi utama dari keseluruhan modul modernisasi ini:
 [↑ Back to Daftar Isi](#daftar-isi)
 
 ---
+
+## Referensi
+- [CDL Study Guide - C4 - Modernize Infrastructure and Applications with Google Cloud
+](https://services.google.com/fh/files/misc/cdl_study_guide_c4_modernize_infrastructure_and_applications_with_google_cloud_english.pdf)
+
+---
 *Langkah berikutnya dalam jalur pembelajaran Cloud Digital Leader:* **Trust and Security with Google Cloud**.
