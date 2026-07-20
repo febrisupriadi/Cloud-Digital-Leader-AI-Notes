@@ -182,8 +182,8 @@ Untuk mendukung analisis Gemini dalam menyajikan wawasan secara instan, platform
 5. **Google Insights:** Perspektif dan wawasan unik yang diperoleh Google dari melindungi miliaran pengguna di seluruh ekosistem internet.
 
 
-
-## 5. Google’s AI Security Offerings
+----
+### 5. Google’s AI Security Offerings
 Evolusi ancaman siber yang sangat cepat menuntut organisasi untuk bergerak dengan kecepatan dan kecerdasan tinggi. Untuk mengatasi risiko ini, Google Cloud menerapkan strategi dua arah (*two-pronged strategy*): **menggunakan AI untuk merevolusi SecOps** dan **menyediakan alat khusus untuk mengamankan beban kerja AI (*AI workloads*) itu sendiri**.
 
 Berikut adalah tiga penawaran utama dari Google Cloud untuk mengimplementasikan strategi tersebut:
