@@ -3,7 +3,7 @@
 ## Daftar Isi
 - [1. Key Security Terms and Concepts](#1-key-security-terms-and-concepts)
 - [2. Cloud Security Components and CIA Triad](#2-cloud-security-components-and-cia-triad)
-- [3. Cloud Identity Management (The Three As & IAM)](#3-cloud-identity-management-the-three-as-iam)
+- [3. Cloud Identity Management (The Three As & IAM)](#3-cloud-identity-management-the-three-as-iam)(#3-cloud-identity-management-the-three-as-and-iam)
 
 ---
 
