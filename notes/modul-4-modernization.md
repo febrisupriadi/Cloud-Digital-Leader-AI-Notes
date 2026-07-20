@@ -167,7 +167,7 @@ Google Cloud menyediakan dua solusi utama untuk rehosting aplikasi *legacy* khus
  
 
 ---
-## Course Summary: Modernize Infrastructure and Applications with Google Cloud
+## 4. Course Summary: Modernize Infrastructure and Applications with Google Cloud
 Berikut adalah rekapitulasi materi utama dari keseluruhan modul modernisasi ini:
 
 ### 1. Fundamentals of Modernization
