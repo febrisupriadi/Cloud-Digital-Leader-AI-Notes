@@ -31,6 +31,7 @@ Modernisasi adalah langkah strategis untuk mengubah cara organisasi mengelola da
     * Retire, Retain, Rehost, Replatform, Refactor, dan Reimagine.
 
 [↑ Back to Daftar Isi](#daftar-isi)
+
 ---
 
 ## 2. Modernizing Infrastructure in the Cloud
@@ -97,6 +98,7 @@ Untuk menghilangkan *data silos* dan menjaga keamanan data di berbagai lingkunga
 *   **Looker:** Platform *business intelligence* (BI) yang bersifat *cloud-agnostic* untuk menyatukan tampilan data dari berbagai sumber.
 
 [↑ Back to Daftar Isi](#daftar-isi)
+
 ---
 
 ## 3. Modernizing Apps in the Cloud
@@ -169,7 +171,9 @@ Google Cloud menyediakan dua solusi utama untuk rehosting aplikasi *legacy* khus
  
 
 [↑ Back to Daftar Isi](#daftar-isi)
+
 ---
+
 ## 4. Course Summary
 Berikut adalah rekapitulasi materi utama dari keseluruhan modul modernisasi ini:
 
