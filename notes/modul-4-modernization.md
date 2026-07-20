@@ -30,6 +30,8 @@ Modernisasi adalah langkah strategis untuk mengubah cara organisasi mengelola da
 * **Migration Strategies (The 6Rs):**
     * Retire, Retain, Rehost, Replatform, Refactor, dan Reimagine.
 
+---
+
 ## 2. Modernizing Infrastructure in the Cloud
 ### Cloud Corner: Analogi Arsitektur Komputasi
 Memilih arsitektur komputasi seperti mendesain ruangan di rumah Anda; setiap beban kerja (*workload*) membutuhkan "ruangan" yang tepat:
@@ -74,3 +76,36 @@ Beralih ke model *serverless* memberikan dampak strategis bagi organisasi:
 * **Pay-per-use Pricing:** Biaya hanya dibebankan saat kode benar-benar dieksekusi (efisien).
 
 
+## Hybrid and Multicloud Management
+Sebagian besar *enterprise computing* di dunia masih berjalan di *on-premises* karena pertimbangan regulasi atau operasional. Migrasi ke *cloud* bukanlah keputusan "semua atau tidak sama sekali" (*all-or-nothing*).
+
+### 1. Model Pengelolaan
+*   **Hybrid Cloud:** Kombinasi infrastruktur *on-premises* (private cloud) dan public cloud yang saling terhubung menggunakan konektivitas aman agar sistem dapat berjalan bersamaan.
+*   **Multicloud:** Penggunaan beberapa penyedia *public cloud* secara bersamaan untuk fleksibilitas maksimal dan menghindari ketergantungan pada satu vendor (*vendor lock-in*).
+
+### 2. Pendekatan Google Cloud untuk Sistem Terdistribusi
+Google Cloud mengelola sistem hibrida dan multicloud tanpa perlu membangun alat manajemen yang rumit dari awal melalui kombinasi:
+*   **Google Kubernetes Engine (GKE):** Untuk mengelola *container* di berbagai lingkungan.
+*   **Google Distributed Cloud (GDC):** Untuk menjalankan layanan Google Cloud di lingkungan *on-premises* atau *edge*.
+
+### 3. Solusi Manajemen Data Terdistribusi
+Untuk menghilangkan *data silos* dan menjaga keamanan data di berbagai lingkungan, Google Cloud menyediakan:
+*   **Cloud SQL:** Layanan terkelola untuk MySQL, PostgreSQL, dan SQL Server sebagai jangkar data yang aman.
+*   **AlloyDB Omni:** Edisi AlloyDB yang dapat diunduh untuk dijalankan secara lokal di *on-premises*, *edge*, atau *cloud* lain.
+*   **BigQuery Omni:** Solusi analisis data multicloud untuk menganalisis data langsung di tempatnya (Google Cloud, AWS, atau Azure) tanpa memindahkan data.
+*   **Looker:** Platform *business intelligence* (BI) yang bersifat *cloud-agnostic* untuk menyatukan tampilan data dari berbagai sumber.
+
+---
+
+## 3. Modernizing Apps in the Cloud
+Setelah memahami cara memodernisasi infrastruktur, fokus beralih ke apa yang berjalan di atasnya: aplikasi. 
+
+### Perubahan Paradigma Pengembangan Aplikasi
+* **Monolithic vs. Microservices:**
+    * *Monolithic (Tradisional):* Aplikasi raksasa di mana semua komponen digabung jadi satu. Mengubah satu baris kode dapat memicu risiko besar atau *"update anxiety"*.
+    * *Microservices (Modern):* Pemecahan aplikasi menjadi komponen-komponen independen dan lebih kecil sehingga aman diperbarui tanpa menciptakan efek domino.
+* **Strategi Aplikasi Legacy:** 
+    * Anda tidak harus merombak sistem lama dalam semalam. Menggunakan pendekatan seperti **"lift and shift"** memungkinkan pemindahan beban kerja yang ada ke Google Cloud dengan cepat tanpa perlu menulis ulang kode dari awal untuk mendapatkan manfaat *cloud*.
+* **Konektivitas dan Manajemen API:**
+    * Aplikasi yang sudah dipindahkan harus dapat saling berkomunikasi secara aman melalui **APIs** (Application Programming Interfaces).
+    * **Apigee API Management:** Platform untuk mengelola, mengamankan, dan menskalakan API secara terpusat.
