@@ -30,7 +30,7 @@ Peralihan ke *cloud* membawa fleksibilitas besar, tetapi juga mengubah cara orga
 
 ---
 
-## 2. Cloud Security Components & CIA Triad
+## 2. Cloud Security Components and CIA Triad
 Model keamanan cloud dievaluasi melalui komponen-komponen yang membentuk postur keamanan yang kokoh menggunakan kerangka **CIA Triad**:
 
 * **Confidentiality (Kerahasiaan):** 
