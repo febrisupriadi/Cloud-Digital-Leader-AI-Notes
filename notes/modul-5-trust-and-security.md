@@ -4,6 +4,7 @@
 - [1. Key Security Terms and Concepts](#1-key-security-terms-and-concepts)
 - [2. Cloud Security Components and CIA Triad](#2-cloud-security-components-and-cia-triad)
 - [3. Cloud Identity Management (The Three As & IAM)](#3-cloud-identity-management-the-three-as-and-iam)
+- [4. Google's Trusted Infrastructure ](#4-googles-trusted-infrastructure)
 
 ---
 
@@ -83,13 +84,33 @@ Di lingkungan *cloud*, keamanan tidak lagi ditentukan oleh perimeter fisik, mela
   * Menetapkan *roles* dan memberikan atau mencabut izin (*permissions*) ke sumber daya.
   * Mengaudit aktivitas pengguna dan memantau posisi keamanan secara menyeluruh.
 
+[↑ Back to Daftar Isi](#daftar-isi)
+
 ---
 
-### Knowledge Check: The Three As of Cloud Identity Management
-* **Menampilkan kartu identitas untuk memasuki gedung terlaris:** [Authorization] *(Koreksi: Autentikasi / verifikasi identitas, namun dalam konteks kuis perhatikan kategori pencocokan kartu)*.
-* **Menetapkan izin berdasarkan peran dan tanggung jawab:** **Authorization**
-* **Memantau dan melacak aktivitas pengguna dalam sistem:** **Auditing**
-* **Menganalisis log untuk mendeteksi anomali dan pelanggaran keamanan:** **Auditing**
-* **Menyajikan kredensial unik seperti kata sandi atau sidik jari:** **Authentication**
+---
+
+## 4. Google's Trusted Infrastructure 
+
+### Data Centers
+Google mendesain dan mengoperasikan jaringan pusat data (*data centers*) global secara mandiri sebagai fondasi dari strategi pertahanan berlapis (*defense-in-depth*).
+
+### Keunggulan Infrastruktur Pusat Data Google
+* **Purpose-Built Facilities:** Dibangun dari nol dengan standar keandalan, keamanan, dan efisiensi tingkat tinggi (saat ini mengoperasikan lebih dari 30 pusat data di seluruh dunia).
+* **Efisiensi Energi (PUE Score):** Mengukur keberhasilan efisiensi menggunakan metrik **Power Usage Effectiveness (PUE)**. Contohnya, pusat data di Hamina, Finlandia, memanfaatkan air laut untuk sistem pendingin yang inovatif.
+* **Skalabilitas dan Kustomisasi:** Memungkinkan penambahan server dengan cepat serta memberikan fleksibilitas untuk menghadirkan fitur-fitur eksklusif bagi pengguna.
+
+
+### Security Built into the Compute Stack
+Keamanan tidak hanya dijaga secara fisik, tetapi juga ditanamkan langsung ke dalam *compute stack* melalui perangkat keras dan perangkat lunak khusus:
+
+* **Custom Security Hardware (Titan Chip):** 
+  * Menggunakan chip Titan sebagai *hardware root of trust* untuk memverifikasi integritas sistem saat pertama kali dinyalakan (*secure boot*).
+  * Mencegah manipulasi tingkat rendah (*low-level tampering*) dan memastikan hanya kode yang sah (*authentic code*) yang dapat berjalan.
+* **Security Software:**
+  * Menggunakan tumpukan perangkat lunak (*software stack*) khusus dengan kernel yang diperkeras (*hardened kernel*).
+  * Komponen yang tidak esensial dipangkas untuk memperkecil celah serangan (*attack surface*), sehingga beban kerja Anda menjadi jauh lebih aman.
 
 [↑ Back to Daftar Isi](#daftar-isi)
+
+---
