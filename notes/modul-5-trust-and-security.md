@@ -58,9 +58,7 @@ Prinsip CIA Triad kadang saling bertolak belakang (misalnya enkripsi ketat dapat
 
 ---
 
----
-
-## 3. Cloud Identity Management (The Three As & IAM)
+## 3. Cloud Identity Management (The Three As and IAM)
 Di lingkungan *cloud*, keamanan tidak lagi ditentukan oleh perimeter fisik, melainkan dikelola melalui identitas digital. Manajemen akses dikendalikan melalui tiga pilar utama yang disebut **The Three As**:
 
 ### 1. Authentication (Autentikasi)
