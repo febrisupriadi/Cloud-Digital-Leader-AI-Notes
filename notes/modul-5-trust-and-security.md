@@ -181,3 +181,55 @@ Untuk mendukung analisis Gemini dalam menyajikan wawasan secara instan, platform
 4. **Curated Intelligence:** Data yang dikurasi dan disaring secara khusus oleh para ahli keamanan untuk keakuratan tinggi.
 5. **Google Insights:** Perspektif dan wawasan unik yang diperoleh Google dari melindungi miliaran pengguna di seluruh ekosistem internet.
 
+
+
+## 5. Google’s AI Security Offerings
+Evolusi ancaman siber yang sangat cepat menuntut organisasi untuk bergerak dengan kecepatan dan kecerdasan tinggi. Untuk mengatasi risiko ini, Google Cloud menerapkan strategi dua arah (*two-pronged strategy*): **menggunakan AI untuk merevolusi SecOps** dan **menyediakan alat khusus untuk mengamankan beban kerja AI (*AI workloads*) itu sendiri**.
+
+Berikut adalah tiga penawaran utama dari Google Cloud untuk mengimplementasikan strategi tersebut:
+
+### 1. Gemini in Google SecOps
+Google menyematkan teknologi AI generatif ke dalam produk keamanannya untuk membantu analis bekerja lebih cepat dan cerdas.
+* **Fungsi Utama:** Bertindak sebagai analis keamanan virtual (*virtual security analyst*) yang mengubah tugas kompleks menjadi perintah bahasa alami (*natural language prompts*).
+* **Fitur-Fitur Utama:**
+  * **Generate search queries:** Membuat kueri penelusuran secara instan melalui perintah teks biasa.
+  * **Generate YARA-L rules:** Membantu mendeteksi ancaman dengan membuat aturan deteksi secara otomatis.
+  * **Provide threat intelligence assistance:** Menyediakan bantuan analisis kecerdasan ancaman secara *real-time*.
+  * **Create security playbooks:** Merancang panduan alur kerja penanganan insiden otomatis.
+  * **Summarize security cases:** Merangkum laporan kasus investigasi keamanan yang panjang menjadi ringkasan yang cepat dipahami.
+
+### 2. AI Protection in Security Command Center
+* Kumpulan kapabilitas yang dirancang khusus untuk melindungi beban kerja AI (*AI workloads*) dan data di seluruh model atau layanan *cloud* apa pun.
+* Membantu tim mengelola risiko dengan memberikan visibilitas penuh ke dalam inventaris AI, mengidentifikasi kerentanan, serta menerapkan pengaman (*security guardrails*) untuk mendeteksi dan menghentikan ancaman.
+
+### Cloud Corner: Securing AI Innovation
+Dalam lanskap modern, adopsi AI tidak hanya tentang membangun pengalaman baru, tetapi juga memastikan sistem pengereman keamanannya sama kuatnya dengan mesin pengeraknya. Industri dengan data tingkat tinggi (seperti keuangan dan layanan kesehatan) sangat mengandalkan kapabilitas *AI Protection* dari *Security Command Center* agar dapat terus berinovasi tanpa mengorbankan keamanan maupun kepatuhan (*compliance*).
+
+### 3. Model Armor
+* Perangkat perlindungan khusus yang difokuskan untuk mengamankan model AI dari ancaman manipulasi eksternal (seperti serangan injeksi *prompt* atau kebocoran data sensitif dari keluaran model).
+
+**Model Armor** adalah layanan keamanan cloud yang dikelola sepenuhnya (*fully managed*) dan dirancang khusus untuk meningkatkan keamanan dan keselamatan aplikasi *Large Language Model* (LLM), khususnya model AI generatif. 
+
+Layanan ini berfungsi sebagai **AI firewall** yang secara proaktif menginspeksi dan memfilter input/prompt dari pengguna maupun output dari model AI sebelum risiko keamanan atau keselamatan terjadi.
+
+### Fitur & Kapabilitas Utama Model Armor (Lapisan Pertahanan Berlapis)
+Model Armor menyediakan pengaman (*guardrails*) esensial melalui empat pilar perlindungan utama:
+
+1. **Prompt Injection and Jailbreak Detection:**
+   * Mendeteksi dan memblokir upaya serangan manipulasi (seperti *prompt injection* atau *jailbreak*) yang dirancang untuk mengelabui model AI agar mengabaikan instruksi sistem, melanggar batas keamanan, atau mengeluarkan respons terlarang.
+2. **Content Safety and Responsible AI:**
+   * Menyaring konten berbahaya, tidak pantas, atau beracun (*toxic content*) untuk memastikan keluaran model AI tetap aman dan mematuhi prinsip AI yang bertanggung jawab (*Responsible AI*).
+3. **Sensitive Data Protection (DLP):**
+   * Mengintegrasikan teknologi pencegahan kebocoran data (*Data Loss Prevention*) untuk mengidentifikasi dan menyaring informasi sensitif atau data pribadi (seperti nomor kartu kredit, identitas pribadi) sebelum masuk ke model atau bocor melalui respons yang diberikan kepada pengguna.
+4. **Malicious URL and Malware Detection:**
+   * Menganalisis dan mendeteksi tautan berbahaya (*malicious URLs*) atau potensi malware yang disisipkan dalam interaksi chat atau keluaran teks.
+
+### Keunggulan Operasional Model Armor
+* **Perlindungan Aplikasi LLM:** Memberikan pengaman penting bagi organisasi untuk menerapkan chatbot yang berhadapan langsung dengan pelanggan maupun *internal copilot* secara aman dari risiko kebocoran data dan konten tidak pantas.
+* **Mendukung Industri Teregulasi:** Sangat membantu industri dengan standar keamanan tinggi (seperti keuangan dan layanan kesehatan) untuk menjaga kepatuhan (*compliance*) dengan cara menyaring informasi sensitif sebelum diproses.
+* **Model-Agnostic & Fleksibel:** Bersifat fleksibel dan tidak terikat pada satu model saja. Model Armor mendukung **Gemini** maupun model pihak ketiga melalui REST API, sehingga mudah diintegrasikan ke dalam berbagai ekosistem lingkungan *cloud*.
+
+[↑ Back to Daftar Isi](#daftar-isi)
+
+---
+
