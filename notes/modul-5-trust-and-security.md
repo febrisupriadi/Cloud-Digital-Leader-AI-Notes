@@ -2,7 +2,7 @@
 
 ## Daftar Isi
 - [1. Key Security Terms and Concepts](#1-key-security-terms-and-concepts)
-- [2. Cloud Security Components & CIA Triad](#2-cloud-security-components--cia-&-triad)
+- [2. Cloud Security Components and CIA Triad](#2-cloud-security-components-and-cia-triad)
 - [↑ Back to Daftar Isi](#daftar-isi)
 
 ---
