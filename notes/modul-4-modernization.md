@@ -30,6 +30,7 @@ Modernisasi adalah langkah strategis untuk mengubah cara organisasi mengelola da
 * **Migration Strategies (The 6Rs):**
     * Retire, Retain, Rehost, Replatform, Refactor, dan Reimagine.
 
+[↑ Back to Daftar Isi](#daftar-isi)
 ---
 
 ## 2. Modernizing Infrastructure in the Cloud
@@ -95,6 +96,7 @@ Untuk menghilangkan *data silos* dan menjaga keamanan data di berbagai lingkunga
 *   **BigQuery Omni:** Solusi analisis data multicloud untuk menganalisis data langsung di tempatnya (Google Cloud, AWS, atau Azure) tanpa memindahkan data.
 *   **Looker:** Platform *business intelligence* (BI) yang bersifat *cloud-agnostic* untuk menyatukan tampilan data dari berbagai sumber.
 
+[↑ Back to Daftar Isi](#daftar-isi)
 ---
 
 ## 3. Modernizing Apps in the Cloud
@@ -166,6 +168,7 @@ Google Cloud menyediakan dua solusi utama untuk rehosting aplikasi *legacy* khus
   * **Analitik Bawaan (*Built-in Analytics*):** Membantu AccuWeather memantau siapa saja yang mendaftar, mengukur volume trafik yang dihasilkan, melacak asal trafik, serta mendeteksi pola penggunaan yang tidak biasa (*anomalies*).
  
 
+[↑ Back to Daftar Isi](#daftar-isi)
 ---
 ## 4. Course Summary
 Berikut adalah rekapitulasi materi utama dari keseluruhan modul modernisasi ini:
@@ -184,6 +187,8 @@ Berikut adalah rekapitulasi materi utama dari keseluruhan modul modernisasi ini:
 * Mengeksplorasi pertimbangan dan perangkat untuk melakukan *rehosting* aplikasi *legacy* ke *cloud* (seperti *Google Cloud VMware Engine* dan *Bare Metal Solution*).
 * Mendefinisikan peran penting **Application Programming Interfaces (APIs)**.
 * Mempelajari manfaat pengelolaan dan pengamanan API secara terpusat menggunakan **Apigee API Management**.
+
+[↑ Back to Daftar Isi](#daftar-isi)
 
 ---
 *Langkah berikutnya dalam jalur pembelajaran Cloud Digital Leader:* **Trust and Security with Google Cloud**.
