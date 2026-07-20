@@ -153,7 +153,7 @@ Berikut adalah beberapa manfaat utama penerapan *Security Operations* (SecOps) d
 4. **Enhanced employee productivity:** Meningkatkan produktivitas karyawan melalui otomatisasi alur kerja keamanan (*workflow automation*) sehingga waktu yang dihabiskan untuk menangani ancaman manual menjadi lebih sedikit.
 
 
-## 4. Cybersecurity Threats & Google Threat Intelligence
+### 4. Cybersecurity Threats & Google Threat Intelligence
 Di era yang saling terhubung secara global, pola ancaman keamanan telah bergeser dari sekadar pembatas fisik (*local fortress*) menjadi ancaman yang tidak terlihat dan datang dari berbagai arah.
 
 ### Jenis-Jenis Ancaman Keamanan Siber Utama
