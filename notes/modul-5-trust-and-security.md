@@ -92,7 +92,7 @@ Di lingkungan *cloud*, keamanan tidak lagi ditentukan oleh perimeter fisik, mela
 
 ## 4. Google's Trusted Infrastructure 
 
-### Data Centers
+### 1. Data Centers
 Google mendesain dan mengoperasikan jaringan pusat data (*data centers*) global secara mandiri sebagai fondasi dari strategi pertahanan berlapis (*defense-in-depth*).
 
 ### Keunggulan Infrastruktur Pusat Data Google
@@ -110,6 +110,22 @@ Keamanan tidak hanya dijaga secara fisik, tetapi juga ditanamkan langsung ke dal
 * **Security Software:**
   * Menggunakan tumpukan perangkat lunak (*software stack*) khusus dengan kernel yang diperkeras (*hardened kernel*).
   * Komponen yang tidak esensial dipangkas untuk memperkecil celah serangan (*attack surface*), sehingga beban kerja Anda menjadi jauh lebih aman.
+
+
+### 2. Secure Storage & Encryption
+Meskipun pengamanan fisik dan perangkat keras sudah ketat, enkripsi merupakan benteng pertahanan utama untuk melindungi data itu sendiri. 
+
+### Prinsip Dasar Enkripsi
+* Menggunakan algoritma khusus untuk mengubah data yang dapat dibaca menjadi format acak (*scrambled*) yang tidak dapat dibaca tanpa kunci yang tepat.
+* Berfungsi seperti brankas: bahkan jika seseorang berhasil mengambil perangkat atau hard drive secara fisik, data di dalamnya tetap tidak dapat dipahami tanpa kunci enkripsi.
+
+### Enkripsi Data di Berbagai Status (Data States)
+* **Data at Rest (Data saat disimpan):** Data yang tersimpan di perangkat fisik atau server. Google Cloud secara otomatis mengenkripsi semua konten pelanggan saat istirahat tanpa memerlukan konfigurasi tambahan. Pengguna juga dapat mengelola kunci enkripsi sendiri menggunakan **Cloud Key Management Service (Cloud KMS)**.
+* **Data in Transit (Data saat dikirim/berpindah):** Data yang sedang bergerak melintasi jaringan. Google menggunakan protokol **Transport Layer Security (TLS)** untuk mengenkripsi dan memvalidasi data secara ketat.
+
+### Standar Global Enkripsi
+* **Advanced Encryption Standard (AES):** Standar global yang dipercaya oleh industri dan pemerintahan.
+* **AES-256:** Digunakan secara *default* oleh Google Cloud untuk mengenkripsi data at rest sebagai lapisan perlindungan yang kuat dan berlapis.
 
 [↑ Back to Daftar Isi](#daftar-isi)
 
