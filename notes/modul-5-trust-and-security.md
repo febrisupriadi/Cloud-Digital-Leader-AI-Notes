@@ -26,7 +26,6 @@ Peralihan ke *cloud* membawa fleksibilitas besar, tetapi juga mengubah cara orga
 * **Encryption & Decryption:** Proses mengubah data menjadi format yang tidak dapat dibaca (*encrypted*) menggunakan algoritma, dan mengembalikannya ke bentuk semula menggunakan kunci enkripsi (*decryption key*).
 * **Data Loss Prevention (DLP):** Strategi dan perangkat untuk mengidentifikasi, memantau, dan melindungi informasi sensitif (seperti nomor kartu kredit atau data pribadi) agar tidak hilang, disalahgunakan, atau diakses secara tidak sah.
 
----
 [↑ Back to Daftar Isi](#daftar-isi)
 
 ---
@@ -49,11 +48,6 @@ Prinsip CIA Triad kadang saling bertolak belakang (misalnya enkripsi ketat dapat
 * **Control:** Kebijakan dan pengaman teknis (seperti autentikasi ketat dan pembatasan akses) untuk memitigasi risiko keamanan.
 * **Compliance:** Kepatuhan terhadap hukum, regulasi, dan standar industri untuk membangun kepercayaan pemangku kepentingan dan meminimalkan risiko hukum.
 
----
-
-### Knowledge Check: Security Concepts
-* **Pertanyaan Kuis:** A security team is setting up a new cloud system. They put strict rules and tools in place to stop outsiders from breaking in. They also make sure that no files can be secretly changed while moving from one place to another. Which two security concepts are they focusing on?
-* **Jawaban:** **Control and integrity**
 
 [↑ Back to Daftar Isi](#daftar-isi)
 
@@ -75,7 +69,6 @@ Di lingkungan *cloud*, keamanan tidak lagi ditentukan oleh perimeter fisik, mela
 * Berfungsi untuk memantau, mencatat, dan melacak aktivitas pengguna di dalam sistem.
 * Mengumpulkan log aktivitas dan kejadian sistem untuk mendeteksi anomali, pelanggaran kebijakan, atau investigasi insiden keamanan (dapat dianalogikan seperti kamera pengawas/cctv).
 
----
 
 ### Google Cloud Identity and Access Management (IAM)
 * **Pusat Komando Keamanan:** Layanan terpusat di Google Cloud untuk mengontrol siapa yang memiliki akses ke sumber daya dan apa yang dapat mereka lakukan.
@@ -85,8 +78,6 @@ Di lingkungan *cloud*, keamanan tidak lagi ditentukan oleh perimeter fisik, mela
   * Mengaudit aktivitas pengguna dan memantau posisi keamanan secara menyeluruh.
 
 [↑ Back to Daftar Isi](#daftar-isi)
-
----
 
 ---
 
@@ -182,7 +173,6 @@ Untuk mendukung analisis Gemini dalam menyajikan wawasan secara instan, platform
 5. **Google Insights:** Perspektif dan wawasan unik yang diperoleh Google dari melindungi miliaran pengguna di seluruh ekosistem internet.
 
 
-----
 ### 5. Google’s AI Security Offerings
 Evolusi ancaman siber yang sangat cepat menuntut organisasi untuk bergerak dengan kecepatan dan kecerdasan tinggi. Untuk mengatasi risiko ini, Google Cloud menerapkan strategi dua arah (*two-pronged strategy*): **menggunakan AI untuk merevolusi SecOps** dan **menyediakan alat khusus untuk mengamankan beban kerja AI (*AI workloads*) itu sendiri**.
 
