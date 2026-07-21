@@ -77,5 +77,28 @@ Mirip seperti struktur folder pada sistem komputer, Google Cloud menggunakan str
 * **Security & Compliance:** Mendukung prinsip hak istimewa terkecil (*principle of least privilege*) untuk meminimalkan risiko keamanan.
 * **Visibility & Auditing:** Mempermudah pelacakan perubahan akses di seluruh hierarki guna meningkatkan akuntabilitas dan tinjauan kepatuhan.
 
+### C. Contoh Implementasi Level Hierarki Sumber Daya
+
+Untuk memahami bagaimana struktur ini diterapkan dalam organisasi nyata, berikut adalah contoh perbandingan penempatan aset dari level tertinggi hingga terbawah:
+
+1. **Organization Node (Simpul Organisasi - Level Tertinggi)**
+   * **Deskripsi:** Wadah utama yang merepresentasikan seluruh perusahaan (misalnya `pt-telekomunikasi-nusantara.com`).
+   * **Contoh Kasus:** Diberikan kebijakan keamanan tingkat perusahaan (Company-wide security policy) yang mewajibkan seluruh data dienkripsi secara *default* dan melarang pembuatan *virtual machines* di wilayah geografis tertentu demi kepatuhan regulasi.
+
+2. **Folders (Folder - Level Ketiga)**
+   * **Deskripsi:** Digunakan untuk mengelompokkan departemen, unit bisnis, atau memisahkan lingkungan kerja (*environments*).
+   * **Contoh Kasus:** Perusahaan membuat folder terpisah untuk **Production Environment** dan **Testing/Development Environment**. Aturan pembatasan akses (*access control*) diterapkan di folder *Testing* agar tim *developer* memiliki kebebasan penuh di sana, namun akses tersebut dibatasi secara ketat di folder *Production*.
+
+3. **Projects (Proyek - Level Kedua)**
+   * **Deskripsi:** Wadah logis tempat layanan dan sumber daya benar-benar diaktifkan dan dikelola.
+   * **Contoh Kasus:** Dalam folder *Production*, terdapat proyek terpisah bernama `billing-system-prod` khusus untuk menampung aplikasi penagihan pelanggan, serta proyek `customer-portal-prod` untuk aplikasi web portal pengguna.
+
+4. **Resources (Sumber Daya - Level Terbawah)**
+   * **Deskripsi:** Komponen infrastruktur individual yang menjalankan fungsi operasional.
+   * **Contoh Kasus:** Di dalam proyek `billing-system-prod`, terdapat aset spesifik seperti:
+     * 3 buah *virtual machines* (Compute Engine) untuk server aplikasi.
+     * 1 buah *database* terkelola (Cloud SQL) untuk menyimpan data transaksi.
+     * Beberapa *Cloud Storage buckets* untuk menyimpan berkas laporan bulanan.
+
 ---
 [↑ Back to Daftar Isi](#daftar-isi)
