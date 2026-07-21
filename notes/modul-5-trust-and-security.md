@@ -5,6 +5,7 @@
 - [2. Cloud Security Components and CIA Triad](#2-cloud-security-components-and-cia-triad)
 - [3. Cloud Identity Management (The Three As & IAM)](#3-cloud-identity-management-the-three-as-and-iam)
 - [4. Google's Trusted Infrastructure ](#4-googles-trusted-infrastructure)
+- [5. Google Cloud Trust Principles & Transparency Reports](#5-google-cloud-trust-principles-and-transparenscy-reports)
 
 ---
 
@@ -223,3 +224,23 @@ Model Armor menyediakan pengaman (*guardrails*) esensial melalui empat pilar per
 
 ---
 
+---
+
+## 5. Google Cloud Trust Principles and Transparency Reports
+Untuk mendapatkan dan menjaga kepercayaan pelanggan, Google Cloud membangun komitmennya tidak hanya melalui janji, tetapi melalui prinsip-prinsip operasional yang transparan dan dapat diukur.
+
+### 7 Core Trust Principles (7 Prinsip Utama Kepercayaan Google Cloud)
+1. **You own your data, not Google:** Pelanggan memiliki kendali penuh atas data mereka dan dapat mengakses, mengekspor, menghapus, serta mengelola izin data di dalam Google Cloud.
+2. **Google does not sell customer data to third parties:** Data pelanggan dilindungi dan tidak pernah diperjualbelikan kepada pihak ketiga.
+3. **Google Cloud does not use customer data for advertising:** Data pelanggan bersifat rahasia dan tidak pernah digunakan untuk keperluan penargetan iklan oleh Google.
+4. **All customer data is encrypted by default:** Semua data pelanggan dilindungi menggunakan enkripsi yang kuat secara otomatis (*default*), bahkan saat disimpan maupun dalam perjalanan.
+5. **We guard against insider access to your data:** Menerapkan langkah-langkah keamanan yang sangat ketat untuk mencegah akses karyawan internal yang tidak sah ke data pelanggan.
+6. **We never give any government entity "backdoor" access:** Tidak pernah memberikan akses "pintu belakang" (*backdoor*) kepada entitas pemerintah mana pun, dan setiap permintaan data harus melalui proses hukum yang sah dan transparan.
+7. **We are transparent about government requests:** Google secara rutin mempublikasikan laporan transparansi (*transparency reports*) untuk membagikan detail terkait jumlah dan jenis permintaan data dari pemerintah.
+
+---
+
+### Transparency Reports
+* Sebagai bagian dari pilar komitmen, laporan transparansi diterbitkan secara rutin untuk memberikan visibilitas publik mengenai bagaimana regulasi, permintaan data pemerintah, dan masalah privasi ditangani secara terbuka.
+
+[↑ Back to Daftar Isi](#daftar-isi)
