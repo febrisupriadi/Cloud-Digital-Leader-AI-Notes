@@ -5,6 +5,7 @@
 - [2. Fundamentals of Cloud Cost Management](#2-fundamentals-of-cloud-cost-management)
 - [3. Controlling Access & Resource Hierarchy](#3-controlling-access--resource-hierarchy)
 - [4. Controlling Cloud Consumption](#4-controlling-cloud-consumption)
+- [5. Operational Excellence and Reliability at Scale](#5-operational-excellence-and-realibility-at-scale)
 
 ---
 
@@ -129,6 +130,27 @@ Google Cloud menyediakan berbagai perangkat proaktif dan reaktif untuk membantu 
 
 6. **Committed Use Discounts (CUDs):**
    * Memberikan harga diskon sebagai imbalan atas komitmen penggunaan tingkat sumber daya minimum untuk jangka waktu tertentu bagi beban kerja yang dapat diprediksi.
+
+---
+
+[↑ Back to Daftar Isi](#daftar-isi)
+
+## 5. Operational Excellence and Reliability at Scale
+
+Setelah berhasil mengendalikan konsumsi dan biaya, langkah krusial berikutnya adalah membangun keunggulan operasional (*operational excellence*) dan reliabilitas (*reliability*) agar sistem tetap tangguh dan siap menghadapi lonjakan beban kerja yang masif.
+
+### Pengertian dan Peran Utama
+* **Operational Excellence:** Mengoptimalkan proses operasi agar sistem mampu menangani pertumbuhan skala secara efisien. Memastikan bahwa sistem otomatis mendeteksi lonjakan trafik (*traffic spikes*) dan memprovisi sumber daya baru secara otomatis.
+* **Reliability:** Janji atau jaminan bahwa layanan akan terus *online* dan memberikan performa yang solid tanpa gangguan, terlepas dari seberapa besar peningkatan permintaan pengguna.
+
+### Analogi "Sayuran" dalam Lingkungan Cloud
+* Dalam strategi *cloud*, keunggulan operasional dan reliabilitas sering diibaratkan sebagai "sayuran" (*vegetables*)—sering kali tidak terlihat atau tidak seglamor fitur aplikasi baru, namun merupakan fondasi esensial yang membuat seluruh sistem tetap sehat, kuat, dan berjalan konsisten di balik layar.
+
+### Menghadapi Lonjakan Trafik Ekstrem (Skala Besar)
+* **Contoh Skenario Nyata:** Pada saat *flash sale* besar-besaran, trafik dapat meningkat secara drastis hingga ribuan persen dalam hitungan detik.
+* **Peran Operasi & Arsitektur:** 
+  * Sistem secara otomatis melakukan *scaling* (menambah atau mengurangi sumber daya) di latar belakang sehingga bisnis dapat memecahkan rekor transaksi tanpa mengalami kegagalan.
+  * Jika sebuah *server* mengalami kelebihan beban, sistem secara mulus mengalihkan trafik ke *server* sehat lainnya sehingga pengguna tetap merasakan pengalaman tanpa hambatan (*flawless experience*).
 
 ---
 
