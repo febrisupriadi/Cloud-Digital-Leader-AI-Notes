@@ -250,3 +250,10 @@ Modul ini menandai penutupan dari seluruh rangkaian materi pembelajaran *Cloud D
 ---
 
 [↑ Back to Daftar Isi](#daftar-isi)
+
+## Referensi
+- [CDL Study Guide - C6 - Scalling with Google Cloud
+](https://services.google.com/fh/files/misc/cdl_study_guide_c6_scaling_with_google_cloud_operations_english.pdf)
+
+[↑ Back to Daftar Isi](#daftar-isi)
+
