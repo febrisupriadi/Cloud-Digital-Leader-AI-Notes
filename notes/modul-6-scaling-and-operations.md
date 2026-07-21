@@ -6,6 +6,7 @@
 - [3. Controlling Access & Resource Hierarchy](#3-controlling-access--resource-hierarchy)
 - [4. Controlling Cloud Consumption](#4-controlling-cloud-consumption)
 - [5. Operational Excellence and Reliability at Scale](#5-operational-excellence-and-reliability-at-scale)
+- [6. Fundamentals of Cloud Reliability](#6-fundamentals-of-cloud-reliability)
 
 ---
 
@@ -151,6 +152,35 @@ Setelah berhasil mengendalikan konsumsi dan biaya, langkah krusial berikutnya ad
 * **Peran Operasi & Arsitektur:** 
   * Sistem secara otomatis melakukan *scaling* (menambah atau mengurangi sumber daya) di latar belakang sehingga bisnis dapat memecahkan rekor transaksi tanpa mengalami kegagalan.
   * Jika sebuah *server* mengalami kelebihan beban, sistem secara mulus mengalihkan trafik ke *server* sehat lainnya sehingga pengguna tetap merasakan pengalaman tanpa hambatan (*flawless experience*).
+
+---
+
+[↑ Back to Daftar Isi](#daftar-isi)
+
+## 6. Fundamentals of Cloud Reliability
+
+Dalam lingkungan IT tradisional, sering kali terjadi pemisahan (*dual ownership*) antara tim pengembang (*developers*) dan tim operasional (*operators*):
+* **Developers:** Didorong oleh kecepatan (*agility*), fokus menulis dan merilis kode baru dengan cepat untuk meningkatkan nilai bisnis serta pengalaman pengguna.
+* **Operators:** Bertindak sebagai penjaga stabilitas (*stability*), cenderung meminimalkan perubahan guna mencegah gangguan pada sistem.
+
+Pemisahan ini dulunya menciptakan hambatan dan silo komunikasi. Untuk menjembatani hal tersebut, diperlukan kerangka kerja budaya dan teknis yang menyatukan tujuan keduanya.
+
+### A. DevOps dan Site Reliability Engineering (SRE)
+* **DevOps (Developer Operations):** Pendekatan pengembangan perangkat lunak yang menekankan kolaborasi dan komunikasi antara tim pengembang dan operasional guna meningkatkan efisiensi, kecepatan, serta reliabilitas pengiriman sistem melalui otomatisasi dan peningkatan berkelanjutan.
+* **Site Reliability Engineering (SRE):** Konsep di dalam DevOps yang menggabungkan aspek rekayasa perangkat lunak dan operasi untuk merancang, membangun, serta memelihara infrastruktur yang *scalable* dan andal.
+
+### B. The Four Golden Signals (Empat Sinyal Utama)
+Pemantauan (*monitoring*) adalah fondasi dari reliabilitas produk. Kinerja sistem diukur menggunakan empat sinyal utama:
+1. **Latency:** Mengukur waktu yang dibutuhkan sistem untuk memproses dan mengembalikan hasil suatu permintaan. Sangat penting karena berdampak langsung pada pengalaman pengguna (*user experience*).
+2. **Traffic:** Mengukur jumlah permintaan (*requests*) yang mencapai sistem, berfungsi sebagai indikator beban kerja saat ini dan perencanaan kapasitas (*capacity planning*).
+3. **Saturation:** Mengukur seberapa dekat sistem dengan batas kapasitas maksimalnya, khususnya pada sumber daya yang paling terbatas.
+4. **Errors:** Mengukur tingkat kegagalan atau kesalahan saat sistem menghasilkan respons yang tidak terduga atau salah.
+
+### C. SLI, SLO, dan SLA (Indikator, Tujuan, dan Perjanjian Layanan)
+Tiga konsep inti dalam menentukan target reliabilitas berdasarkan *four golden signals*:
+* **Service Level Indicators (SLI):** Pengukuran spesifik secara kuantitatif tentang bagaimana performa layanan berjalan secara aktual (misalnya tingkat latensi rata-rata atau tingkat *error rate*).
+* **Service Level Objectives (SLO):** Target reliabilitas internal yang ingin dicapai oleh tim untuk menjaga sistem tetap sehat (misalnya menetapkan target ketersediaan layanan sebesar 99.9% dalam sebulan).
+* **Service Level Agreements (SLA):** Perjanjian eksternal/kontrak komersial dengan klien enterprise mengenai jaminan performa layanan, di mana pelanggaran terhadap batas ini berkonsekuensi pada penalti finansial atau kompensasi.
 
 ---
 
