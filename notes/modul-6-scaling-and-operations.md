@@ -5,7 +5,7 @@
 - [2. Fundamentals of Cloud Cost Management](#2-fundamentals-of-cloud-cost-management)
 - [3. Controlling Access & Resource Hierarchy](#3-controlling-access--resource-hierarchy)
 - [4. Controlling Cloud Consumption](#4-controlling-cloud-consumption)
-- [5. Operational Excellence and Reliability at Scale](#5-operational-excellence-and-realibility-at-scale)
+- [5. Operational Excellence and Reliability at Scale](#5-operational-excellence-and-reliability-at-scale)
 
 ---
 
