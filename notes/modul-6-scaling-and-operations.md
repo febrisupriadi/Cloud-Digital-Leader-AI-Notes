@@ -4,6 +4,7 @@
 - [1. Scaling with Google Cloud Operations](#1-scaling-with-google-cloud-operations)
 - [2. Fundamentals of Cloud Cost Management](#2-fundamentals-of-cloud-cost-management)
 - [3. Controlling Access & Resource Hierarchy](#3-controlling-access--resource-hierarchy)
+- [4. Controlling Cloud Consumption](#4-controlling-cloud-consumption)
 
 ---
 
@@ -98,4 +99,37 @@ Untuk memahami bagaimana struktur ini diterapkan dalam organisasi nyata, berikut
      * Beberapa *Cloud Storage buckets* untuk menyimpan berkas laporan bulanan.
 
 ---
+[↑ Back to Daftar Isi](#daftar-isi)
+
+## 4. Controlling Cloud Consumption
+Setelah hierarki akses terkonfigurasi dengan baik, langkah selanjutnya adalah mengontrol konsumsi *cloud*. Tujuannya adalah merealisasikan penghematan biaya, mencegah pengeluaran berlebih, memaksimalkan sumber daya yang disediakan, serta memastikan kepatuhan terhadap regulasi industri.
+
+### A. Alat untuk Mengontrol Konsumsi Cloud (*Tools to Control Cloud Consumption*)
+Google Cloud menyediakan berbagai perangkat proaktif dan reaktif untuk membantu mengelola konsumsi:
+
+1. **Resource Quota Policies:**
+   * Berfungsi untuk menetapkan batasan (*limits*) pada jumlah sumber daya yang dapat dikonsumsi oleh suatu proyek atau pengguna.
+   * Mencegah pembengkakan biaya dan memastikan penggunaan tetap berada dalam batas anggaran.
+
+2. **Budget Threshold Rules:**
+   * Memungkinkan pembuatan peringatan (*alerts*) otomatis ketika biaya mencapai atau melampaui jumlah tertentu.
+   * Bertindak sebagai peringatan dini (*early warning*) sebelum biaya tidak terkendali.
+
+3. **Cloud Billing Reports:**
+   * Memberikan cara reaktif untuk melacak pengeluaran yang telah terjadi.
+   * Data tagihan dapat diekspor ke BigQuery untuk analisis mendalam atau divisualisasikan menggunakan alat pelaporan.
+
+4. **Dynamic Workload Scheduler:**
+   * Mengatur jadwal penggunaan sumber daya untuk durasi tertentu dengan tarif diskon.
+   * Sangat ideal untuk beban kerja non-darurat, seperti mematikan lingkungan *testing/development* secara otomatis di luar jam kerja untuk menghemat biaya.
+
+5. **Spot VMs:**
+   * Opsi yang sangat hemat biaya untuk beban kerja non-kritis dan tahan terhadap gangguan (*fault-tolerant*).
+   * Memanfaatkan kapasitas Compute Engine yang tidak terpakai dengan diskon hingga 91%, dengan risiko dihentikan sementara jika Google membutuhkan kapasitas tersebut (disertai peringatan 30 detik).
+
+6. **Committed Use Discounts (CUDs):**
+   * Memberikan harga diskon sebagai imbalan atas komitmen penggunaan tingkat sumber daya minimum untuk jangka waktu tertentu bagi beban kerja yang dapat diprediksi.
+
+---
+
 [↑ Back to Daftar Isi](#daftar-isi)
