@@ -293,4 +293,4 @@ Modul *Trust and Security with Google Cloud* merangkum tiga pilar utama dalam me
 ---
 ## Referensi
 - [CDL Study Guide - C5 - Trust and security with Google Cloud
-]([https://services.google.com/fh/files/misc/cdl_study_guide_c4_modernize_infrastructure_and_applications_with_google_cloud_english.pdf](https://services.google.com/fh/files/misc/cdl_study_guide_c5_trust_and_security_with_google_cloud_english.pdf))
+](https://services.google.com/fh/files/misc/cdl_study_guide_c5_trust_and_security_with_google_cloud_english.pdf)
