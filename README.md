@@ -16,8 +16,8 @@ Berikut adalah status penyelesaian dari 6 modul utama pada jalur pembelajaran in
 | **2** | Exploring Data Transformation with Google Cloud | 🟢 Selesai | *(Draf sedang dipindahkan)* |
 | **3** | Innovating with Google Cloud Artificial Intelligence | 🟢 Selesai | [Lihat Catatan](./notes/modul-3-ai-innovation.md) |
 | **4** | Modernize Infrastructure and Applications | 🟢 Selesai | [Lihat Catatan](./notes/modul-4-modernization.md) |
-| **5** | Trust and Security with Google Cloud | 🟡 Sedang Dipelajari | - |
-| **6** | Scaling with Google Cloud Operations | ⚪ Belum | - |
+| **5** | Trust and Security with Google Cloud | 🟢 Selesai | [Lihat Catatan](./notes/modul-5-trust-and-security.md) |
+| **6** | Scaling with Google Cloud Operations | 🟢 Selesai | [Lihat Catatan](./notes/modul-6-scalling-and-operations.md) |
 
 > **Keterangan:** 🟢 Selesai | 🟡 Sedang Dipelajari | ⚪ Belum Mulai
 
