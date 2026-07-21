@@ -44,6 +44,9 @@ Beberapa praktik terbaik untuk meningkatkan prediktabilitas dan kontrol sumber d
    * **Set permissions:** Gunakan kebijakan (*policies*) untuk mengontrol hak akses secara tepat mengenai siapa saja yang dapat melihat biaya dan menghabiskan anggaran.
    * **Use budgets:** Buat anggaran dengan peringatan otomatis (*automated alerts*) untuk memantau batas pengeluaran.
 
+---
+[↑ Back to Daftar Isi](#daftar-isi)
+
 2. **Pahami Perbedaan Invoice vs. Cost Management Tools**
    * **Invoice:** Dokumen tagihan statis yang menunjukkan jumlah total pembayaran atas layanan yang telah digunakan.
    * **Cost Management Tools:** Perangkat lunak analitik yang menjelaskan secara rinci *mengapa* suatu pengeluaran terjadi hingga tingkat sumber daya (*resource level*) dan memberikan rekomendasi optimasi.
@@ -54,5 +57,24 @@ Beberapa praktik terbaik untuk meningkatkan prediktabilitas dan kontrol sumber d
    * **Forecast:** Gunakan [Google Cloud Pricing Calculator](https://cloud.google.com/products/calculator) untuk memodelkan dampak perubahan arsitektur atau penggunaan terhadap anggaran masa depan.
 
 ---
+[↑ Back to Daftar Isi](#daftar-isi)
 
+## 3. Controlling Access & Resource Hierarchy
+Dengan beralihnya organisasi ke model *pay-as-you-go*, pembatasan akses fisik (seperti kunci pintu ruang server) tidak lagi relevan. Pengorganisasian aset dan penerapan aturan keamanan memerlukan struktur hierarkis berbasis logika.
+
+### A. Struktur Hierarki Sumber Daya Google Cloud (*Resource Hierarchy*)
+Mirip seperti struktur folder pada sistem komputer, Google Cloud menggunakan struktur berbentuk pohon (*tree-like structure*) yang mengelompokkan aset secara logis dari bawah ke atas:
+1. **Resources (Sumber Daya):** Level terbawah yang merepresentasikan virtual machines, Cloud Storage buckets, tabel di BigQuery, dan aset individual lainnya.
+2. **Projects (Proyek):** Level kedua tempat mengorganisasikan sumber daya (misalnya wadah untuk satu *website* atau aplikasi tertentu).
+3. **Folders (Folder):** Level ketiga yang opsional untuk mengelompokkan beberapa proyek atau sub-folder, memudahkan penerapan aturan bersama (misalnya memisahkan lingkungan *testing* dan *production*).
+4. **Organization Node (Simpul Organisasi):** Level tertinggi yang merangkum seluruh proyek, folder, dan sumber daya perusahaan.
+
+
+### B. Manfaat Hierarki Sumber Daya
+* **Granular Access Control:** Memungkinkan penugasan peran (*roles*) dan izin pada tingkat spesifik (organisasi, folder, proyek, atau resource).
+ * **Inheritance (Pewarisan):** Aturan atau izin yang ditetapkan pada level yang lebih tinggi (seperti Organization atau Folder) akan otomatis diturunkan (*propagate*) ke sumber daya di bawahnya, sehingga pengelolaan menjadi lebih efisien tanpa harus dikonfigurasi satu persatu.
+* **Security & Compliance:** Mendukung prinsip hak istimewa terkecil (*principle of least privilege*) untuk meminimalkan risiko keamanan.
+* **Visibility & Auditing:** Mempermudah pelacakan perubahan akses di seluruh hierarki guna meningkatkan akuntabilitas dan tinjauan kepatuhan.
+
+---
 [↑ Back to Daftar Isi](#daftar-isi)
