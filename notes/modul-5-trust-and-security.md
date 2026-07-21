@@ -6,7 +6,7 @@
 - [3. Cloud Identity Management (The Three As & IAM)](#3-cloud-identity-management-the-three-as-and-iam)
 - [4. Google's Trusted Infrastructure ](#4-googles-trusted-infrastructure)
 - [5. Google Cloud Trust Principles & Transparency Reports](#5-google-cloud-trust-principles-and-transparency-reports)
-- [Course Summary](#-course-summary)
+- [6. Course Summary](#6-course-summary)
 
 ---
 
@@ -268,7 +268,7 @@ Untuk membantu organisasi menavigasi regulasi yang ketat, Google Cloud menyediak
 
 ---
 
-## Course Summary
+## 6. Course Summary
 Modul *Trust and Security with Google Cloud* merangkum tiga pilar utama dalam membangun fondasi keamanan di *cloud*:
 
 ### 1. Fundamental Cloud Security Concepts
