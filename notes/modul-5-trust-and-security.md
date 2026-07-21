@@ -6,6 +6,7 @@
 - [3. Cloud Identity Management (The Three As & IAM)](#3-cloud-identity-management-the-three-as-and-iam)
 - [4. Google's Trusted Infrastructure ](#4-googles-trusted-infrastructure)
 - [5. Google Cloud Trust Principles & Transparency Reports](#5-google-cloud-trust-principles-and-transparency-reports)
+- [Course Summary](#-course-summary)
 
 ---
 
@@ -236,9 +237,55 @@ Untuk mendapatkan dan menjaga kepercayaan pelanggan, Google Cloud membangun komi
 6. **We never give any government entity "backdoor" access:** Tidak pernah memberikan akses "pintu belakang" (*backdoor*) kepada entitas pemerintah mana pun, dan setiap permintaan data harus melalui proses hukum yang sah dan transparan.
 7. **We are transparent about government requests:** Google secara rutin mempublikasikan laporan transparansi (*transparency reports*) untuk membagikan detail terkait jumlah dan jenis permintaan data dari pemerintah.
 
----
 
 ### Transparency Reports
 * Sebagai bagian dari pilar komitmen, laporan transparansi diterbitkan secara rutin untuk memberikan visibilitas publik mengenai bagaimana regulasi, permintaan data pemerintah, dan masalah privasi ditangani secara terbuka.
+
+
+---
+
+### Data Residency and Compliance
+Setelah membangun fondasi keamanan, transparansi, dan identitas, langkah berikutnya adalah menetapkan batas wilayah penyimpanan data (*data residency*) untuk memenuhi kewajiban hukum dan regulasi regional tertentu.
+
+### Perbedaan Data Residency dan Data Sovereignty
+* **Data Residency:** Mengacu pada lokasi geografis fisik tempat data digital organisasi Anda disimpan (*where your data physically sits*).
+* **Data Sovereignty:** Mengacu pada hukum, aturan, dan regulasi yurisdiksi dari negara tempat data tersebut disimpan (*who controls it & governs it*).
+
+### Solusi dan Fitur Pengendalian Google Cloud
+Google Cloud menyediakan berbagai alat canggih untuk membantu organisasi memenuhi aturan kepatuhan dan kedaulatan data secara fleksibel:
+* **Resource Location Constraints:** Membatasi pembuatan sumber daya cloud hanya di wilayah geografis tertentu (misalnya hanya di region Eropa atau Asia tertentu).
+* **Encryption Key Control (Cloud KMS / External Key Manager):** Memberikan kendali penuh kepada pelanggan untuk menyimpan dan mengelola kunci enkripsi mereka sendiri secara terpisah dari infrastruktur Google.
+* **Compliance Reports Manager:** Menyediakan akses mudah bagi organisasi untuk mengunduh laporan independen (seperti laporan SOC atau sertifikat ISO/IEC) sebagai bukti objektif kepatuhan keamanan.
+
+
+### Industry and Regional Compliance
+Untuk membantu organisasi menavigasi regulasi yang ketat, Google Cloud menyediakan tiga sumber utama:
+* **Sensitive Data Protection:** Menemukan, mengklasifikasikan, serta menyamarkan data sensitif/regulasi (seperti PII dan PHI).
+* **Compliance Resource Center:** Pusat informasi untuk meninjau panduan dan kerangka kerja kepatuhan.
+* **Compliance Reports Manager:** Alat untuk mengunduh laporan audit pihak ketiga (seperti sertifikat SOC dan ISO/IEC) sebagai bukti resmi kepatuhan keamanan.
+
+[↑ Back to Daftar Isi](#daftar-isi)
+
+---
+
+## Course Summary
+Modul *Trust and Security with Google Cloud* merangkum tiga pilar utama dalam membangun fondasi keamanan di *cloud*:
+
+### 1. Fundamental Cloud Security Concepts
+* Mempelajari konsep kunci keamanan termasuk **CIA triad** (Confidentiality, Integrity, dan Availability).
+* Pentingnya manajemen identitas melalui proses *authentication*, *authorization*, dan *auditing*.
+* Strategi **defense-in-depth** ala Google dan arsitektur global yang aman sejak rancangan (*secure-by-design*).
+* Memahami model tanggung jawab bersama (*shared responsibility model*) di cloud.
+
+### 2. Google’s Trusted Infrastructure
+* Perlindungan data menggunakan enkripsi di berbagai status (*at rest*, *in transit*, dan *in use*).
+* Strategi perlindungan jaringan (*network protection*) dan manfaat bisnis dari *SecOps*.
+* Berbagai ancaman keamanan siber modern seperti *social engineering*, *ransomware*, dan *LLM attacks*.
+* Solusi keamanan AI Google, termasuk **Gemini in Google SecOps**, **AI Protection in Security Command Center**, dan **Model Armor**.
+
+### 3. Google Cloud’s Trust Principles and Compliance
+* Tujuh prinsip utama kepercayaan Google Cloud (*7 Core Trust Principles*) dan komitmen transparansi (*transparency reports*).
+* Perbedaan antara *data residency* dan *data sovereignty*.
+* Pemanfaatan pusat sumber daya kepatuhan seperti **Compliance Resource Center**, **Compliance Reports Manager**, dan **Sensitive Data Protection**.
 
 [↑ Back to Daftar Isi](#daftar-isi)
