@@ -104,7 +104,7 @@ Untuk memahami bagaimana struktur ini diterapkan dalam organisasi nyata, berikut
 ## 4. Controlling Cloud Consumption
 Setelah hierarki akses terkonfigurasi dengan baik, langkah selanjutnya adalah mengontrol konsumsi *cloud*. Tujuannya adalah merealisasikan penghematan biaya, mencegah pengeluaran berlebih, memaksimalkan sumber daya yang disediakan, serta memastikan kepatuhan terhadap regulasi industri.
 
-### A. Alat untuk Mengontrol Konsumsi Cloud (*Tools to Control Cloud Consumption*)
+### Alat untuk Mengontrol Konsumsi Cloud (*Tools to Control Cloud Consumption*)
 Google Cloud menyediakan berbagai perangkat proaktif dan reaktif untuk membantu mengelola konsumsi:
 
 1. **Resource Quota Policies:**
