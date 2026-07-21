@@ -5,7 +5,7 @@
 - [2. Cloud Security Components and CIA Triad](#2-cloud-security-components-and-cia-triad)
 - [3. Cloud Identity Management (The Three As & IAM)](#3-cloud-identity-management-the-three-as-and-iam)
 - [4. Google's Trusted Infrastructure ](#4-googles-trusted-infrastructure)
-- [5. Google Cloud Trust Principles & Transparency Reports](#5-google-cloud-trust-principles-and-transparenscy-reports)
+- [5. Google Cloud Trust Principles & Transparency Reports](#5-google-cloud-trust-principles-and-transparency-reports)
 
 ---
 
@@ -221,8 +221,6 @@ Model Armor menyediakan pengaman (*guardrails*) esensial melalui empat pilar per
 * **Model-Agnostic & Fleksibel:** Bersifat fleksibel dan tidak terikat pada satu model saja. Model Armor mendukung **Gemini** maupun model pihak ketiga melalui REST API, sehingga mudah diintegrasikan ke dalam berbagai ekosistem lingkungan *cloud*.
 
 [↑ Back to Daftar Isi](#daftar-isi)
-
----
 
 ---
 
