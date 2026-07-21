@@ -8,6 +8,8 @@
 - [5. Operational Excellence and Reliability at Scale](#5-operational-excellence-and-reliability-at-scale)
 - [6. Fundamentals of Cloud Reliability](#6-fundamentals-of-cloud-reliability)
 - [7. Designing Resilient Infrastructure and Processes](#7-designing-resilient-infrastructure-and-processes)
+- [8. Course Summary](#8-course-summary)
+  
 ---
 
 ## 1. Scaling with Google Cloud Operations
@@ -225,6 +227,25 @@ Platform ini terdiri dari beberapa layanan terkelola utama:
   * Membantu menganalisis penggunaan sumber daya (seperti CPU dan memori) pada kode aplikasi secara *real-time* untuk mengidentifikasi bagian kode yang lambat atau boros sumber daya.
 * **Error Reporting:** 
   * Mengelompokkan, melacak, dan memberikan peringatan otomatis terkait kesalahan (*errors*) yang terjadi pada aplikasi agar tim pengembang dapat segera memperbaikinya.
+
+---
+
+[↑ Back to Daftar Isi](#daftar-isi)
+
+## 8. Course Summary
+
+Modul ini menandai penutupan dari seluruh rangkaian materi pembelajaran *Cloud Digital Leader*. Berikut adalah rangkuman dari poin-poin penting yang telah dipelajari sepanjang kursus:
+
+### A. Pengelolaan Biaya dan Tata Kelola Keuangan (*Financial Governance*)
+* **Perubahan TCO:** Transisi dari pengelolaan pengeluaran modal fisik (*CapEx*) ke model operasional berbasis penggunaan aktual (*OpEx*), yang menawarkan fleksibilitas tinggi namun membutuhkan kehati-hatian guna menghindari lonjakan biaya tak terduga (*bill shock*).
+* **Kolaborasi Lintas Fungsi:** Menyelaraskan peran antara *People* (orang/tim terkait), *Process* (proses peninjauan berkala), dan *Technology* (alat manajemen biaya Google Cloud) untuk menjaga akuntabilitas anggaran.
+* **Hierarki Sumber Daya & Kontrol Konsumsi:** Memanfaatkan struktur *organization node*, *folders*, *projects*, dan *resources* untuk menerapkan kebijakan akses serta membatasi konsumsi menggunakan fitur seperti *quotas*, *budget alerts*, dan *committed use discounts*.
+
+### B. Keunggulan Operasional dan Reliabilitas pada Skala Besar (*Operational Excellence & Reliability*)
+* **DevOps dan SRE:** Menjembatani kecepatan pengembangan (*agility*) dengan stabilitas sistem operasional melalui budaya otomatisasi dan rekayasa keandalan.
+* **The Four Golden Signals:** Memantau metrik utama kesehatan sistem yang mencakup *latency*, *traffic*, *saturation*, dan *errors*.
+* **SLI, SLO, dan SLA:** Menetapkan indikator performa aktual (*SLI*), target reliabilitas internal tim (*SLO*), serta komitmen layanan eksternal kepada klien (*SLA*).
+* **Desain Infrastruktur Tangguh:** Menerapkan strategi *High Availability* (HA), *Disaster Recovery* (DR), redundansi, replikasi data lintas *zones* dan *regions*, serta penggunaan alat pemantauan terpusat melalui **Google Cloud Observability** untuk mendeteksi anomali secara proaktif.
 
 ---
 
