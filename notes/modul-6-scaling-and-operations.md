@@ -3,6 +3,7 @@
 ## Daftar Isi
 - [1. Scaling with Google Cloud Operations](#1-scaling-with-google-cloud-operations)
 - [2. Fundamentals of Cloud Cost Management](#2-fundamentals-of-cloud-cost-management)
+- [3. Controlling Access & Resource Hierarchy](#3-controlling-access--resource-hierarchy)
 
 ---
 
