@@ -45,9 +45,6 @@ Beberapa praktik terbaik untuk meningkatkan prediktabilitas dan kontrol sumber d
    * **Set permissions:** Gunakan kebijakan (*policies*) untuk mengontrol hak akses secara tepat mengenai siapa saja yang dapat melihat biaya dan menghabiskan anggaran.
    * **Use budgets:** Buat anggaran dengan peringatan otomatis (*automated alerts*) untuk memantau batas pengeluaran.
 
----
-[↑ Back to Daftar Isi](#daftar-isi)
-
 2. **Pahami Perbedaan Invoice vs. Cost Management Tools**
    * **Invoice:** Dokumen tagihan statis yang menunjukkan jumlah total pembayaran atas layanan yang telah digunakan.
    * **Cost Management Tools:** Perangkat lunak analitik yang menjelaskan secara rinci *mengapa* suatu pengeluaran terjadi hingga tingkat sumber daya (*resource level*) dan memberikan rekomendasi optimasi.
