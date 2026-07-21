@@ -7,7 +7,7 @@
 - [4. Controlling Cloud Consumption](#4-controlling-cloud-consumption)
 - [5. Operational Excellence and Reliability at Scale](#5-operational-excellence-and-reliability-at-scale)
 - [6. Fundamentals of Cloud Reliability](#6-fundamentals-of-cloud-reliability)
-
+- [7. Designing Resilient Infrastructure and Processes](#7-designing-resilient-infrastructure-and-processes)
 ---
 
 ## 1. Scaling with Google Cloud Operations
@@ -181,6 +181,50 @@ Tiga konsep inti dalam menentukan target reliabilitas berdasarkan *four golden s
 * **Service Level Indicators (SLI):** Pengukuran spesifik secara kuantitatif tentang bagaimana performa layanan berjalan secara aktual (misalnya tingkat latensi rata-rata atau tingkat *error rate*).
 * **Service Level Objectives (SLO):** Target reliabilitas internal yang ingin dicapai oleh tim untuk menjaga sistem tetap sehat (misalnya menetapkan target ketersediaan layanan sebesar 99.9% dalam sebulan).
 * **Service Level Agreements (SLA):** Perjanjian eksternal/kontrak komersial dengan klien enterprise mengenai jaminan performa layanan, di mana pelanggaran terhadap batas ini berkonsekuensi pada penalti finansial atau kompensasi.
+
+---
+
+[↑ Back to Daftar Isi](#daftar-isi)
+
+## 7. Designing Resilient Infrastructure and Processes
+
+Setelah menetapkan target reliabilitas menggunakan SLI dan SLO, langkah selanjutnya adalah merancang infrastruktur secara fisik dan logis agar mampu menghadapi situasi yang tidak terduga, mencegah gangguan, serta memastikan sistem tetap *online* meskipun terjadi kegagalan (*failure*).
+
+### A. Konsep Utama Ketahanan Infrastruktur (*Resilient Infrastructure*)
+* **High Availability (HA):** Kemampuan sistem untuk terus beroperasi dan dapat diakses oleh pengguna meskipun terjadi kegagalan pada perangkat keras (*hardware*) atau perangkat lunak (*software*).
+* **Disaster Recovery (DR):** Proses dan mekanisme untuk memulihkan sistem kembali ke keadaan fungsional setelah terjadi gangguan besar atau bencana (*major disruption/disaster*).
+
+### B. Strategi Desain Utama
+1. **Redundancy (Redundansi):**
+   * Menggandakan komponen atau sumber daya penting guna menyediakan cadangan (*backup*). Redundansi dapat diterapkan pada level perangkat keras, jaringan, maupun aplikasi (misalnya memiliki catu daya ganda atau *load balancers* cadangan) untuk menghilangkan titik kegagalan tunggal (*single points of failure*).
+2. **Replication (Replikasi):**
+   * Membuat salinan data atau layanan dan mendistribusikannya ke berbagai peladen (*servers*) atau lokasi berbeda guna memastikan sistem tetap berfungsi saat sebagian komponen gagal.
+3. **Zones dan Regions:**
+   * **Region:** Wilayah geografis tempat pusat data (*data centers*) berada.
+   * **Zone:** Lokasi terisolasi di dalam sebuah region yang memiliki sumber daya independen (daya, pendingin, jaringan). Mendistribusikan sumber daya ke beberapa zone melindungi sistem dari kegagalan satu pusat data, sementara penggunaan multi-region melindungi dari gangguan tingkat regional yang besar sekaligus memangkas latensi bagi pengguna global.
+4. **Automated Autoscaling:**
+   * Alokasi dan pelepasan sumber daya secara dinamis untuk menyesuaikan fluktuasi beban kerja, sehingga performa tetap terjaga saat terjadi lonjakan trafik (*traffic spikes*).
+5. **Backups & Recovery:**
+   * Membuat cadangan data dan konfigurasi secara rutin serta menyimpannya di lokasi terpisah secara geografis untuk mengantisipasi kehilangan data akibat serangan siber atau pemadaman regional.
+
+
+## Google Cloud Observability
+
+Untuk mengukur kesehatan sistem dan menerapkan sinyal seperti latensi atau *error rate*, Anda memerlukan visibilitas mendalam ke dalam infrastruktur *cloud*. Karena Anda tidak memiliki akses fisik langsung ke peladen di *cloud*, **Google Cloud Observability** hadir sebagai platform terpadu untuk pemantauan, pencatatan (*logging*), dan diagnostik.
+
+Platform ini terdiri dari beberapa layanan terkelola utama:
+
+* **Cloud Monitoring:** 
+  * Menyediakan tampilan menyeluruh terhadap performa, kesehatan, dan ketersediaan aplikasi serta infrastruktur. 
+  * Mengumpulkan *metrics*, log, dan *traces*, serta memungkinkan pembuatan aturan peringatan (*alerting policies*) secara otomatis ketika terjadi anomali atau masalah kesehatan sistem.
+* **Cloud Logging:** 
+  * Mengumpulkan, menyimpan, dan memungkinkan pencarian log dari berbagai layanan *cloud* secara *real-time* untuk keperluan audit dan investigasi insiden.
+* **Cloud Trace:** 
+  * Alat analisis latensi untuk sistem terdistribusi (*microservices*) yang melacak bagaimana sebuah permintaan (*request*) melintasi berbagai layanan.
+* **Cloud Profiler:** 
+  * Membantu menganalisis penggunaan sumber daya (seperti CPU dan memori) pada kode aplikasi secara *real-time* untuk mengidentifikasi bagian kode yang lambat atau boros sumber daya.
+* **Error Reporting:** 
+  * Mengelompokkan, melacak, dan memberikan peringatan otomatis terkait kesalahan (*errors*) yang terjadi pada aplikasi agar tim pengembang dapat segera memperbaikinya.
 
 ---
 
